@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px]
         lg:w-[500px] py-1'>
             <AiOutlineSearch size={20} />
-            <input className='bg-transparent focus:outline-none ml-3' type="text" placeholder='Search foods' />
+            <input className='bg-transparent focus:outline-none ml-3 w-full' type="text" placeholder='Search foods' />
         </div>
         {/* right side end  */}
 
